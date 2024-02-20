@@ -1,0 +1,44 @@
+header,footer{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+*{
+    margin: 0;
+}
+.nav{
+    display: flex;
+    gap: 50px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    transition: 2s;
+}
+a:hover{
+    color: blueviolet;
+}
+.index-tytle, .index-text, ol, .index-img{
+    margin-left: 550px;
+}
+.contacts-link{
+    color: rgb(224, 183, 129);
+    display: block;
+}
+.contacts{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.box{
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
